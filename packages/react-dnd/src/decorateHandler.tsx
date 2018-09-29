@@ -7,7 +7,7 @@ import {
 	CompositeDisposable,
 	SerialDisposable,
 } from './utils/disposables'
-const isClassComponent = require('recompose/isClassComponent').default
+import isClassComponent from './isClassComponent'
 const isPlainObject = require('lodash/isPlainObject')
 const invariant = require('invariant')
 const hoistStatics = require('hoist-non-react-statics')

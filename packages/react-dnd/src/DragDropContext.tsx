@@ -6,9 +6,9 @@ import {
 } from 'dnd-core'
 import checkDecoratorArguments from './utils/checkDecoratorArguments'
 import { ContextComponent } from './interfaces'
+import isClassComponent from './isClassComponent'
 const invariant = require('invariant')
 const hoistStatics = require('hoist-non-react-statics')
-const isClassComponent = require('recompose/isClassComponent').default
 
 /**
  * The React context type
